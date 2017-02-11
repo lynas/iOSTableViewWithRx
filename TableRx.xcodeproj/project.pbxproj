@@ -1,0 +1,389 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3D01817852F83B3591BAEB58 /* Pods_TableRx.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5395A9153015FA9B099CCE53 /* Pods_TableRx.framework */; };
+		FC0835461E4F127F00EC76A9 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC0835451E4F127F00EC76A9 /* TableViewCell.swift */; };
+		FCFE252D1E4F09AA00AA9001 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCFE252C1E4F09AA00AA9001 /* AppDelegate.swift */; };
+		FCFE252F1E4F09AA00AA9001 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCFE252E1E4F09AA00AA9001 /* ViewController.swift */; };
+		FCFE25321E4F09AA00AA9001 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FCFE25301E4F09AA00AA9001 /* Main.storyboard */; };
+		FCFE25341E4F09AA00AA9001 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FCFE25331E4F09AA00AA9001 /* Assets.xcassets */; };
+		FCFE25371E4F09AA00AA9001 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FCFE25351E4F09AA00AA9001 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3E12418586AA9C6909D7F9D9 /* Pods-TableRx.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TableRx.release.xcconfig"; path = "Pods/Target Support Files/Pods-TableRx/Pods-TableRx.release.xcconfig"; sourceTree = "<group>"; };
+		5395A9153015FA9B099CCE53 /* Pods_TableRx.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TableRx.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6BB461B3157ABB6BD367083E /* Pods-TableRx.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TableRx.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TableRx/Pods-TableRx.debug.xcconfig"; sourceTree = "<group>"; };
+		FC0835451E4F127F00EC76A9 /* TableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		FCFE25291E4F09AA00AA9001 /* TableRx.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TableRx.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCFE252C1E4F09AA00AA9001 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FCFE252E1E4F09AA00AA9001 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FCFE25311E4F09AA00AA9001 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FCFE25331E4F09AA00AA9001 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FCFE25361E4F09AA00AA9001 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FCFE25381E4F09AA00AA9001 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FCFE25261E4F09AA00AA9001 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D01817852F83B3591BAEB58 /* Pods_TableRx.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5DB985025D84D4A87EF7C5FA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6BB461B3157ABB6BD367083E /* Pods-TableRx.debug.xcconfig */,
+				3E12418586AA9C6909D7F9D9 /* Pods-TableRx.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		FCFE25201E4F09AA00AA9001 = {
+			isa = PBXGroup;
+			children = (
+				FCFE252B1E4F09AA00AA9001 /* TableRx */,
+				FCFE252A1E4F09AA00AA9001 /* Products */,
+				5DB985025D84D4A87EF7C5FA /* Pods */,
+				FEA043D40D9030EC1A45B58C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		FCFE252A1E4F09AA00AA9001 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FCFE25291E4F09AA00AA9001 /* TableRx.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FCFE252B1E4F09AA00AA9001 /* TableRx */ = {
+			isa = PBXGroup;
+			children = (
+				FCFE252C1E4F09AA00AA9001 /* AppDelegate.swift */,
+				FCFE252E1E4F09AA00AA9001 /* ViewController.swift */,
+				FCFE25301E4F09AA00AA9001 /* Main.storyboard */,
+				FCFE25331E4F09AA00AA9001 /* Assets.xcassets */,
+				FCFE25351E4F09AA00AA9001 /* LaunchScreen.storyboard */,
+				FCFE25381E4F09AA00AA9001 /* Info.plist */,
+				FC0835451E4F127F00EC76A9 /* TableViewCell.swift */,
+			);
+			path = TableRx;
+			sourceTree = "<group>";
+		};
+		FEA043D40D9030EC1A45B58C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5395A9153015FA9B099CCE53 /* Pods_TableRx.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FCFE25281E4F09AA00AA9001 /* TableRx */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FCFE253B1E4F09AA00AA9001 /* Build configuration list for PBXNativeTarget "TableRx" */;
+			buildPhases = (
+				36EAFA1D2BC7993EA8C15E4C /* [CP] Check Pods Manifest.lock */,
+				FCFE25251E4F09AA00AA9001 /* Sources */,
+				FCFE25261E4F09AA00AA9001 /* Frameworks */,
+				FCFE25271E4F09AA00AA9001 /* Resources */,
+				7AF364DDF950FAB275579D31 /* [CP] Embed Pods Frameworks */,
+				0F149ECB9E59E8F163373980 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TableRx;
+			productName = TableRx;
+			productReference = FCFE25291E4F09AA00AA9001 /* TableRx.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FCFE25211E4F09AA00AA9001 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = lynas;
+				TargetAttributes = {
+					FCFE25281E4F09AA00AA9001 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 7449R7248Z;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = FCFE25241E4F09AA00AA9001 /* Build configuration list for PBXProject "TableRx" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FCFE25201E4F09AA00AA9001;
+			productRefGroup = FCFE252A1E4F09AA00AA9001 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FCFE25281E4F09AA00AA9001 /* TableRx */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FCFE25271E4F09AA00AA9001 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCFE25371E4F09AA00AA9001 /* LaunchScreen.storyboard in Resources */,
+				FCFE25341E4F09AA00AA9001 /* Assets.xcassets in Resources */,
+				FCFE25321E4F09AA00AA9001 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0F149ECB9E59E8F163373980 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TableRx/Pods-TableRx-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		36EAFA1D2BC7993EA8C15E4C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		7AF364DDF950FAB275579D31 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TableRx/Pods-TableRx-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FCFE25251E4F09AA00AA9001 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC0835461E4F127F00EC76A9 /* TableViewCell.swift in Sources */,
+				FCFE252F1E4F09AA00AA9001 /* ViewController.swift in Sources */,
+				FCFE252D1E4F09AA00AA9001 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FCFE25301E4F09AA00AA9001 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FCFE25311E4F09AA00AA9001 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FCFE25351E4F09AA00AA9001 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FCFE25361E4F09AA00AA9001 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FCFE25391E4F09AA00AA9001 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FCFE253A1E4F09AA00AA9001 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FCFE253C1E4F09AA00AA9001 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6BB461B3157ABB6BD367083E /* Pods-TableRx.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7449R7248Z;
+				INFOPLIST_FILE = TableRx/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lynas.TableRx;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		FCFE253D1E4F09AA00AA9001 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3E12418586AA9C6909D7F9D9 /* Pods-TableRx.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7449R7248Z;
+				INFOPLIST_FILE = TableRx/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lynas.TableRx;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FCFE25241E4F09AA00AA9001 /* Build configuration list for PBXProject "TableRx" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCFE25391E4F09AA00AA9001 /* Debug */,
+				FCFE253A1E4F09AA00AA9001 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FCFE253B1E4F09AA00AA9001 /* Build configuration list for PBXNativeTarget "TableRx" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCFE253C1E4F09AA00AA9001 /* Debug */,
+				FCFE253D1E4F09AA00AA9001 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FCFE25211E4F09AA00AA9001 /* Project object */;
+}
