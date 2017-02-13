@@ -50,6 +50,22 @@ class ViewController: UIViewController {
 		super.viewDidLoad()
 		items = Observable.just(personArray)
 		bindData()
+		
+		
+		mytable.rx.modelSelected(Person.self).subscribe(onNext: {
+			person in
+			print(person.name)
+		}).addDisposableTo(disposeBag)
+		
+		
+		mytable.rx.itemSelected.subscribe(onNext : {
+			[weak self] indexPath in
+			if let cell = self?.mytable.cellForRow(at: indexPath) as? TableViewCell {
+				cell.label1.text = "new value"
+				
+				
+			}
+		}).addDisposableTo(disposeBag)
 	}
 	
 	private func bindData() {
