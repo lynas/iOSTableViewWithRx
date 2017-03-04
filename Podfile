@@ -8,4 +8,5 @@ target 'TableRx' do
   # Pods for TableRx
   pod 'RxSwift'
   pod 'RxCocoa'
+  pod 'Action'
 end
