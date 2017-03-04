@@ -4,6 +4,11 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>Action.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>Pods-TableRx.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -22,17 +27,22 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>4BFACBC36CAAD37BEF3F051F4969ABE1</key>
+		<key>74256F342C0DD409050F5097222F3CAB</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>5497CE2C4756EC2C13271AF5EEFBFE37</key>
+		<key>8FC08A7383088EF5262A513B694E5365</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>8112CBABC78AC84B38B02A2FC0D275CA</key>
+		<key>BE2C42460AB59F8573F86068046E28BD</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>F432F53B352A4D6670072C2690BE3DF3</key>
 		<dict>
 			<key>primary</key>
 			<true/>
