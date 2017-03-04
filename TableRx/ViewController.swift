@@ -20,7 +20,19 @@ class ViewController: UIViewController {
 	let personArray = [
 		Person(name: "name1", age: 11),
 		Person(name: "name2", age: 12),
-		Person(name: "name3", age: 13)
+		Person(name: "name3", age: 13),
+		Person(name: "name4", age: 12),
+		Person(name: "name5", age: 12),
+		Person(name: "name6", age: 12),
+		Person(name: "name7", age: 12),
+		Person(name: "name8", age: 12),
+		Person(name: "name9", age: 12),
+		Person(name: "name10", age: 12),
+		Person(name: "name11", age: 12),
+		Person(name: "name12", age: 12),
+		Person(name: "name13", age: 12),
+		Person(name: "name14", age: 12),
+		Person(name: "name15", age: 12)
 	]
 
 	let disposeBag = DisposeBag()
@@ -38,8 +50,8 @@ class ViewController: UIViewController {
 	
 	@IBAction func appendData(_ sender: UIButton) {
 		let newPersonArray = [
-			Person(name: "name 6", age: 11),
-			Person(name: "name 7", age: 12)
+			Person(name: "name 16", age: 11),
+			Person(name: "name 17", age: 12)
 		]
 		appendData(dataToAppend : newPersonArray)
 	}
@@ -72,8 +84,7 @@ class ViewController: UIViewController {
 		mytable.dataSource = nil
 		items.bindTo(mytable.rx.items(cellIdentifier: "cell")) { (row, person, cell) in
 			if let cellToUse = cell as? TableViewCell {
-				cellToUse.label1.text = person.name
-				cellToUse.label2.text = "\(person.age)"
+				cellToUse.person = person
 			}
 		}.addDisposableTo(disposeBag)
 	}
